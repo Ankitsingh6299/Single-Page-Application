@@ -1,0 +1,25 @@
+<div class="jumbotron text-centre">
+
+    <div class="btnalnctr">
+        <button type="submit" ng-click="retrieve_data();">Show data to update details
+
+        </button><br><br>
+        
+    </div>
+
+    <table align='center' border="">
+        <tr>
+            <th><h4><b>First Name</b></h4></th>
+            <th><h4><b>Last Name</b></h4></th>
+            <th><h4><b>Phone Number</b></h4></th>
+            <th><h4><b>Operation</b></h4></th>
+        </tr>
+        <tr ng-repeat="data in recieve">
+            <td>{{data.first_name}}</td>
+                <td>{{data.last_name}}</td>
+                    <td>{{data.phone}}</td>
+
+        <td align='center'><button><a ng-href="/update/{{data._id}}">Update</a></button>            
+        </tr>
+    </table>
+</div>

@@ -1,0 +1,18 @@
+{
+  "name": "public",
+  "description": "bower file",
+  "main": "",
+  "authors": [
+    "Ankit Singh"
+  ],
+  "license": "MIT",
+  "homepage": "",
+  "dependencies": {
+    "bootstrap": "^4.4.1",
+    "font-awesome": "^5.12.0",
+    "animate.css": "^3.7.2",
+    "angular": "^1.7.9",
+    "angular-route": "^1.7.9",
+    "jquery": "^3.4.1"
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "name": "spamean",
+  "version": "1.0.0",
+  "description": "backend config",
+  "main": "server.js",
+  "scripts": {
+    "test": "testing command",
+    "start": "node server.js"
+  },
+  "author": "Ankit Singh",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.19.0",
+    "bower": "^1.8.8",
+    "express": "^4.17.1",
+    "git": "^0.1.5",
+    "method-override": "^3.0.0",
+    "mongoose": "^5.8.9"
+  }
+}

@@ -1,0 +1,28 @@
+<div class="jumbotron text-centre">
+    <div class="btnalnctr">
+        <button type="submit" ng-click="retrieve_data();">Show Details</button>
+        <br><br>
+    </div>
+
+    <table align='center' border="">
+
+        <tr>
+            <th>
+                <h4><b>First Name</b></h4>
+            </th>
+            <th>
+                <h4><b>Last Name</b></h4>
+            </th>
+            <th>
+                <h4>Phone Number</h4>
+            </th>
+        </tr>
+
+        <tr ng-repeat="data in recieve ">
+            <td>{{data.first_name}}</td>
+            <td>{{data.last_name}}</td>
+            <td>{{data.phone}}</td>
+        </tr>
+        
+    </table>
+</div>

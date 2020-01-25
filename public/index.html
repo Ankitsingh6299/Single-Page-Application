@@ -1,0 +1,50 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+      <meta charset="UTF-8">
+      <base href="/">
+
+      <title>Single page application : Mean Stack</title>
+
+      <link rel="stylesheet" href="libs/bootstrap/dist/css/bootstrap.min.css">
+      <link rel="stylesheet" href="btnalnctr.css">
+      <script src="libs/angular/angular.min.js"></script>
+      <script src="libs/angular-route/angular-route.min.js"></script>
+
+      <script src="js/controllers/HomeCtrl.js"></script>
+      <script src="js/controllers/AboutCtrl.js"></script>
+      <script src="js/controllers/ContactCtrl.js"></script>
+      <script src="js/controllers/UpdateCtrl.js"></script>
+
+      <script src="js/controllers/RegisterCtrl.js"></script>
+      <script src="js/controllers/ShowCtrl.js"></script>
+      <script src="js/services/AboutService.js"></script>
+      <script src="js/angappRoutes.js"></script>
+      <script src="js/angapp.js"></script>
+
+</head>
+
+<body ng-app="angularSPA">
+      <div class="container">
+            <nav class="navbar navbar-inverse">
+                  <div class="navbar-header">
+                        <a class="navbar-brand" href="http://www.fintechtrainers.com/index.php">Fintech trainers Mean
+                              stack prog</a>
+
+                  </div>
+                  <ul class="nav navbar-nav">
+                        <li><a href="/home">Home</a></li>
+                        <li><a href="/about">About Us</a></li>
+                        <li><a href="/contact">Contact us</a></li>
+                        <li><a href="/register">Register</a></li>
+                        <li><a href="/show">Show</a></li>
+                        <li><a href="/update">Update</a></li>
+
+                  </ul>
+            </nav>
+            <div ng-view></div>
+      </div>
+</body>
+
+</html>
